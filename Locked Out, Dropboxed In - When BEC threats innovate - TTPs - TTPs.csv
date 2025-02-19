@@ -1,0 +1,11 @@
+Tactic,Technique ID,Technique,Procedure
+Initial Access,T1199,Trusted Relationship,The threat actor exploits trusted relationships between the victim’s organization and cloud providers to create accounts without standard verification.
+Initial Access,T1566.002,Spearphishing Link,"An email with a Dropbox invoice lures the victim into clicking a link, which redirects them to a phishing page that initiates the attack."
+Execution,T1204.002,User Execution: Malicious Link,"The victim clicks the malicious link provided in the email, thereby executing the payload that starts the attack."
+Persistence,T1078.004,Valid Accounts: Cloud Accounts,"New cloud service accounts (e.g., Dropbox, WeTransfer) are registered using the victim’s email, enabling impersonation and continued phishing activity."
+Persistence,T1098,Account Manipulation,"The threat actor configures eM Client with granted Graph API permissions, effectively obtaining an additional OAuth credential that remains valid even after password resets."
+Defense Evasion,T1078.004,Valid Accounts: Cloud Accounts,The threat actor registers additional cloud service accounts using the victim’s email to bypass detection and maintain stealth during phishing operations.
+Defense Evasion,T1564.008,Hide Artifacts: Email Hiding Rules,"Email rules are configured to delete or move messages (e.g., to the RSS folder), effectively hiding or removing evidence of the malicious activity."
+Credential Access,T1557,Adversary-in-the-Middle,"The phishing page intercepts credentials and MFA tokens entered by the victim, enabling real-time credential collection by the threat actor."
+Collection,T1114.003,Email Collection: Email Forwarding Rule,Email forwarding rules are established to automatically redirect incoming emails to a threat actor–controlled destination.
+Collection,T1114.002,Email Collection: Remote Email Collection,"The threat actor configures eM Client to sync the mailbox locally, preserving email content even after access to the online account is lost."
