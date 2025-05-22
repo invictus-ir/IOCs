@@ -1,0 +1,20 @@
+;;;;;;
+;Tactic;Technique ID;Technique;Procedure (Context);;
+;Initial Access;T1078.004;Valid Accounts: Cloud Accounts;"Twilio: Stolen Twilio API credentials (likely) used to access the platform and send fraudulent SMS messages.
+AWS: Exploiting long-term IAM access keys to gain access to AWS environments, enabling unauthorized console access.";;
+;Initial Access;T1566.002;Phishing: Spearphishing Link;AWS: Using SES/WorkMail to send phishing emails with malicious links to trick users into revealing credentials or accessing malicious content.;;
+;Execution;T1648;Serverless Execution;"AWS: Creating a Lambda function named ""buckets555"" for malicious execution, likely to run unauthorized code or scripts in the AWS environment.";;
+;Persistence;T1078.004;Valid Accounts: Cloud Accounts;AWS: Using temporary STS credentials for persistent AWS console access, maintaining a foothold without needing permanent credentials.;;
+;Persistence;T1136.003;Create Account: Cloud Account;"Twilio: The threat actor created subaccounts in Twilio to manage fraudulent activities.
+AWS: Creating IAM users with login profiles and administrative permissions to maintain long-term access to the AWS environment.";;
+;Persistence;T1543.005;Create or Modify System Process: Cloud Instance;AWS: Creating an EC2 security group named “Administratorsz” to ensure persistent access or control over cloud instances.;;
+;Privilege Escalation;T1078.004;Valid Accounts: Cloud Accounts;AWS: Attaching administrative policies to IAM users, granting elevated access to perform privileged actions in the AWS environment.;;
+;Defense Evasion;T1550.001;Use Alternate Authentication Material: Application Access Token;"Twilio: Stolen Twilio API tokens (likely) used for programmatic authentication to send SMS messages, bypassing user-level authentication.
+AWS: Using temporary STS credentials/login URLs to authenticate and bypass detection mechanisms in the AWS environment.";;
+;Defense Evasion;T1562.008;Impair Defenses: Disable or Modify Cloud Logs;AWS: Avoiding GetCallerIdentity API calls to evade CloudTrail detection, reducing visibility of malicious activities.;;
+;Collection;T1530;Data from Cloud Storage;"AWS: Potential reconnaissance of S3 buckets via the Lambda function ""buckets555,"" likely to identify or access sensitive data.";;
+;Command and Control;T1071.001;Application Layer Protocol: Web Protocols;AWS: Using the AWS console over HTTPS for command and control, managing malicious activities via web protocols.;;
+;Command and Control;T1090.002;Proxy: External Proxy;AWS: Routing callbacks through residential/ISP proxies or freely available VPN services to obscure the source of malicious traffic.;;
+;Impact;T1491;Defacement;Websites: Defacements signed by multiple team handles with Bahasa Indonesia phrases, indicating public-facing impact.;;
+;Impact;T1496;Resource Hijacking;"Twilio: Sending ~10,000 fraudulent SMS messages using the victim’s Twilio account, incurring costs and disrupting operations.
+AWS: Hijacking SES/WorkMail for phishing campaigns and other AWS resources for malicious purposes, abusing victim infrastructure.";;
