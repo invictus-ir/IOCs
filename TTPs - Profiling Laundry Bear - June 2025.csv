@@ -1,0 +1,14 @@
+;;;;;;
+;Tactic;ID;Technique;Procedure (Context);;
+;Initial Access;T1078;Valid Accounts;The threat actor uses stolen credentials, potentially purchased from criminal marketplaces, to access valid accounts (Exchange Online, OWA). The Dutch police attack used a stolen session cookie via pass-the-cookie attack.;;
+;Initial Access;T1566.001;Phishing: Spearphishing Attachment;The threat actor sends spear phishing emails with malicious QR codes in PDF attachments redirecting to typosquatted domains spoofing Microsoft Entra for credential theft.;;
+;Persistence / Privilege Escalation;T1098.002;Account Manipulation: Additional Email Delegate Permissions;The threat actor grants additional permissions (e.g., delegated access) to compromised email accounts to maintain persistence in Microsoft 365 environments, targeting accounts managing other accounts.;;
+;Credential Access;T1557;Adversary-in-the-Middle;The threat actor uses the Evilginx framework to conduct AitM phishing, intercepting authentication data during logins to Microsoft cloud services (e.g., Entra ID).;;
+;Credential Access;T1539;Steal Web Session Cookie;The threat actor steals or acquires session cookies, likely via infostealer malware from criminal marketplaces, to authenticate to Microsoft services without credentials. For example, the Dutch police attack.;;
+;Credential Access;T1110.003;Password Spraying;The threat actor password sprays (e.g., “password123,” “qwerty”) across multiple accounts, spread over time, to avoid detection in Microsoft 365 environments.;;
+;Discovery;T1087;Account Discovery;The threat actor downloads the Global Address List (GAL) via Exchange Web Services (EWS).;;
+;Collection;T1114.002;Remote Email Collection;The threat actor steals emails at scale from Exchange Online using EWS or OWA, targeting sensitive information.;;
+;Collection;T1213.002;Data from Information Repositories: SharePoint;The threat actor exploits  known SharePoint vulnerabilities to steal files and credentials from SharePoint environments.;;
+;Collection;T1213.005;Data from Information Repositories: Messaging Applications;The threat actor accesses Microsoft Teams conversations for intelligence gathering.;;
+;Command and Control;T1090;Proxy;The threat actor uses residential proxies to obfuscate C2 traffic, making it appear as legitimate network activity.;;
+;Exfiltration;T1048.003;Exfiltration Over Alternative Protocol Non-C2 Protocol;The threat actor exfiltrates data over unencrypted protocols (e.g., HTTP) to alternate locations, using encoding, from cloud environments.;;
