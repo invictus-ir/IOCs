@@ -1,23 +1,23 @@
 MITRE Tactic,MITRE Technique,Technique ID,Type,Data
-Initial Access,Trusted Relationship,T1199, User-Agent,node-fetch/1.0
-Initial Access,Trusted Relationship,T1199,User-Agent,axios/1.11.0
-Initial Access,Trusted Relationship,T1199,IP Address,169.150.196.235
-Initial Access,Trusted Relationship,T1199,IP Address,169.150.196.236
-Initial Access,Trusted Relationship,T1199,IP Address,169.150.196.232
-Initial Access,Trusted Relationship,T1199,IP Address,169.150.196.237
-Initial Access,Trusted Relationship,T1199,IP Address,169.150.196.240
-Initial Access,Trusted Relationship,T1199,IP Address,169.150.196.226
-Initial Access,Trusted Relationship,T1199,IP Address,169.150.196.225
-Initial Access,Trusted Relationship,T1199,IP Address,169.150.196.242
-Initial Access,Trusted Relationship,T1199,IP Address,169.150.196.243
-Initial Access,Trusted Relationship,T1199,IP Address,102.88.107.230
-Initial Access,Trusted Relationship,T1199,IP Address,191.96.106.138
-Initial Access,Trusted Relationship,T1199,IP Address,179.61.197.114
-Initial Access,Trusted Relationship,T1199,IP Address,179.61.197.14
-Initial Access,Trusted Relationship,T1199,IP Address,212.32.48.129
-Initial Access,Trusted Relationship,T1199,IP Address,212.32.48.38
-Initial Access,Trusted Relationship,T1199,IP Address,66.56.81.35
-Initial Access,Trusted Relationship,T1199,IP Address,84.239.43.26
+Initial Access,Phishing: Spearphishing via Service,T1566.003, User-Agent,node-fetch/1.0
+Initial Access,Phishing: Spearphishing via Service,T1566.003,User-Agent,axios/1.11.0
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,169.150.196.235
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,169.150.196.236
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,169.150.196.232
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,169.150.196.237
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,169.150.196.240
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,169.150.196.226
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,169.150.196.225
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,169.150.196.242
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,169.150.196.243
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,102.88.107.230
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,191.96.106.138
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,179.61.197.114
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,179.61.197.14
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,212.32.48.129
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,212.32.48.38
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,66.56.81.35
+Initial Access,Phishing: Spearphishing via Service,T1566.003,IP Address,84.239.43.26
 Defense Evasion,Hide Artifacts: Email Hiding Rules,T1564.008,IP Address,212.102.49.204
 Defense Evasion,Indicator Removal: Clear Mailbox Data,T1070.008,IP Address,102.209.31.134
 Defense Evasion,Indicator Removal: Clear Mailbox Data,T1070.008,Operations,HardDelete
@@ -25,6 +25,7 @@ Defense Evasion,Hide Artifacts: Email Hiding Rules,T1564.008,Operations,New-Inbo
 Collection, Data from Information Repositories: Sharepoint, T1213.002, Operations,AddedToSecureLink
 Collection, Data from Information Repositories: Sharepoint, T1213.002, Operations,FileUploaded
 Collection, Data from Information Repositories: Sharepoint, T1213.002, Operations,FileDownloaded
+
 
 
 
