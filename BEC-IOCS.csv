@@ -1,0 +1,28 @@
+﻿Type,Data,Notes
+User-Agent,node-fetch/1.0 (+https://github.com/bitinn/node-fetch),Connecting to several MS services on 2025-08-19 in a likely automated fashion
+User-Agent,axios/1.11.0,Popular user-agent for AiTM attacks
+IP Address,169.150.196.235,Private Internet Access (VPN)
+IP Address,169.150.196.236,Private Internet Access (VPN)
+IP Address,169.150.196.232,Private Internet Access (VPN)
+IP Address,169.150.196.237,Private Internet Access (VPN)
+IP Address,169.150.196.240,Private Internet Access (VPN)
+IP Address,169.150.196.226,Private Internet Access (VPN)
+IP Address,169.150.196.225,Private Internet Access (VPN)
+IP Address,169.150.196.242,Private Internet Access (VPN)
+IP Address,169.150.196.243,Private Internet Access (VPN)
+IP Address,212.102.49.204,Used for Inbox rule + Sharepoint activity PIA
+IP Address,102.88.107.230,Login from Nigeria using Officehome using Rich Client 4.67.2.0
+IP Address,191.96.106.138,Private Internet Access (VPN)
+IP Address,102.209.31.134,Used to hard delete phishing emails
+IP Address,179.61.197.114,Private Internet Access (VPN)
+IP Address,179.61.197.14,Private Internet Access (VPN)
+IP Address,212.32.48.129,Private Internet Access (VPN)
+IP Address,212.32.48.38,Private Internet Access (VPN)
+IP Address,66.56.81.35,Private Internet Access (VPN)
+IP Address,84.239.43.26,Private Internet Access (VPN)
+Operations,HardDelete,Threat actor hard deletes emails used for further phishing and AiTM lures
+Operations,AddedToSecureLink,Threat actor adds users to SharePoint sharing
+Operations,FileUploaded,Can be used to identify who uploaded malicious files to SharePoint
+Operations,FileDownloaded,Can be used to identify who downloaded malicious files from SharePoint
+Operations,New-InboxRule,The TA prefers short names such as '.' or '.;'
+Operations,Consent to application.,Inspect the AppID for interesting apps such as (PerfectData & EM Client)
