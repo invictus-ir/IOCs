@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Type,Indicator,Description,Incident
 Malware,fcb81618bb15edfdedfb638b4c08a2af9cac9ecfa551af135a8402bf980375cf,RAT Ð Linux,Axios
 Malware,92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a,RAT Ð MacOS,Axios
@@ -24,3 +25,31 @@ File System,/Library/Caches/com.apple.act.mond,Native binary - Universal Mach-O 
 File System,/tmp/.XXXXXX.scpt,Temp AppleScript (macOS),Axios
 File System,/private/tmp/.*,Temp Payloads (macOS),Axios
 File System,/tmp/ld.py,Python RAT (Linux),Axios
+=======
+"Type,Indicator,Description,Incident",
+"Malware,fcb81618bb15edfdedfb638b4c08a2af9cac9ecfa551af135a8402bf980375cf,RAT Linux,Axios",
+"Malware,92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a,RAT MacOS,Axios",
+"Malware,617b67a8e1210e4fc87c92d1d1da45a2f311c08d26e89b12307cf583c900d101,RAT Windows,Axios",
+"Malware,e10b1fa84f1d6481625f741b69892780140d4e0e7769e7491e5f4d894c2e0e09,setup.js, Dropper Script,Axios",
+"Malware,f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd,System.bat,PowerShell Script,Axios",
+"Malware,e49c2732fb9861548208a78e72996b9c3c470b6b562576924bcc3a9fb75bf9ff,System.bat,PowerShell Script,Axios",
+"Malware,ed8560c1ac7ceb6983ba995124d5917dc1a00288912387a6389296637d5f815c,6202033, PowerShell Script,Axios",
+"Infrastructure,hxxp://sfrclak.com:8000/6202033,C2 URL,Axios",
+"Infrastructure,sfrclak[.]com,C2 Domain,Axios",
+"Infrastructure,callnrwise[.]com,C2 Domain Ã High confidence pivot,Axios",
+"Infrastructure,142.11.206[.]73,C2 Infrastructure,Axios",
+"Infrastructure,nrwise","proton[.]me,Threat actor registered email,Axios"
+"Infrastructure,ifstap","proton[.]me,Threat actor registered email,Axios"
+"File System,%PROGRAMDATA%\wt.exe,Renamed PowerShell (Windows),Axios",
+"File System,%PROGRAMDATA%\system.bat,Persistence Loader (Windows),Axios",
+"File System,%TEMP%\6202033.vbs,VBScript Dropper (Windows),Axios",
+"File System,%TEMP%\6202033.ps1,PowerShell Payload (Windows),Axios",
+"File System,%TEMP%\<GUID>.ps1,Temp Script Execution (Windows),Axios",
+"Registry,""HKCU\Software\Microsoft\Windows\CurrentVersion\Run"",Persistence Key (Windows),Axios",
+"Registry,MicrosoftUpdate,Persistence Registry Name,Axios",
+"Registry,%PROGRAMDATA%\system.bat,Persistence Registry Value,Axios",
+"File System,/Library/Caches/com.apple.act.mond,Native binary - Universal Mach-O (macOS),Axios",
+"File System,/tmp/.XXXXXX.scpt,Temp AppleScript (macOS),Axios",
+"File System,/private/tmp/.*,Temp Payloads (macOS),Axios",
+"File System,/tmp/ld.py,Python RAT (Linux),Axios"
+>>>>>>> 1beb95818644414c7ff5fd011c5d73466a29bc41
