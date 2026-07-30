@@ -27,11 +27,11 @@
 
 ## What's inside
 
-### 🧭 Cloud Threat Landscape (flagship dataset)
+### Cloud Threat Landscape (flagship dataset)
 
 `TTPs - Cloud Threat Landscape - Q1-Q3 2025.csv` — **168 attacker technique observations** spanning **76 distinct MITRE ATT&CK techniques** and **all 14 tactics** of the cloud kill chain, each attributed to a threat actor and the cloud service abused. The headline finding: adversaries aren't breaking in, they're **logging in** — *Valid Accounts: Cloud Accounts* is the single most-observed technique.
 
-### 🎯 Threat-actor TTP profiles
+### Threat-actor TTP profiles
 
 ATT&CK-mapped technique sets for named adversaries, each with real procedure context:
 
@@ -46,7 +46,7 @@ ATT&CK-mapped technique sets for named adversaries, each with real procedure con
 
 Plus a campaign-level TTP set: `TTPs - Locked Out, Dropboxed In - When BEC threats innovate.csv` — the technique side of the matching IOC file below.
 
-### 🧾 Incident IOC sets
+### Incident IOC sets
 
 Indicators from specific investigations and campaigns:
 
