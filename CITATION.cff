@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Invictus IR — IOCs & TTPs Threat Intelligence Datasets"
+message: "If you use this data, please cite it."
+type: dataset
+authors:
+  - name: "Invictus IR"
+    website: "https://www.invictus-ir.com"
+url: "https://github.com/invictus-ir/IOCs"
+repository-code: "https://github.com/invictus-ir/IOCs"
+keywords:
+  - threat intelligence
+  - indicators of compromise
+  - MITRE ATT&CK
+  - TTPs
+  - cloud incident response
+  - DFIR
+license: CC-BY-4.0
